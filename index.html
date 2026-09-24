@@ -31,7 +31,7 @@
         PhotoArchie compresses photos and videos locally. It does not provide cloud media storage,
         show ads, sell personal information, or upload your photo library to the developer.
       </p>
-      <p class="updated">Effective and last updated: September 21, 2026</p>
+      <p class="updated">Effective and last updated: September 24, 2026</p>
     </div>
   </header>
 
@@ -99,13 +99,25 @@
           <li>photos and videos you allow the app to access;</li>
           <li>library information needed to display and organize media, such as dates, dimensions, duration, favorite or hidden status, album relationships, and local Photos identifiers;</li>
           <li>compressed copies, thumbnails, archive and compression records, storage-savings information, app settings, labels, player names, and game history;</li>
-          <li>optional widget thumbnails and related records shared between the app and its widget through Apple's App Group storage; and</li>
+          <li>optional widget thumbnails and related records shared between the app and its widget through Apple's App Group storage;</li>
+          <li>on-device image-selection eligibility and broad content categories used for memory-widget photos and symbols and the When Was This game; and</li>
           <li>device-authentication results used for optional App Lock. Face ID, Touch ID, and passcode data are handled by iOS and are not available to us.</li>
         </ul>
         <p>
           This information is stored locally in PhotoArchie's app or App Group container. It is not sent to
           the developer. Original media remains in Apple Photos unless you deliberately use a deletion
           action and confirm it through Apple's system interface.
+        </p>
+        <h3>Optional image content classification</h3>
+        <p>
+          When image content classification is enabled, PhotoArchie uses an offline Apple system framework
+          strictly on your device to help choose photos for the memory widget and the game's automatic
+          selection, avoid screenshots or text-heavy images, and show a broad content-related symbol on
+          memory widgets. The app does not transmit images or classification tags from this analysis to
+          the developer, analytics, or another server. You can turn this feature off in Settings. With it
+          off, PhotoArchie does not run that image analysis; automatic picks are random among eligible
+          photos and may include screenshots or text-heavy images. Memory widgets can still match photos
+          to a date without analyzing image content.
         </p>
       </section>
 
@@ -196,6 +208,7 @@
         <h2>7. Your choices, retention, and deletion</h2>
         <ul>
           <li><strong>Photos access:</strong> choose Limited or Full Access and change or revoke it in iOS Settings. Revoking access may prevent app features from working.</li>
+          <li><strong>Image content classification:</strong> turn it off in PhotoArchie Settings to use random photo selection for the memory widget and game. The offline Apple system framework will not be used for photo selection while this setting is off.</li>
           <li><strong>Local data:</strong> remove compressed copies and related records using PhotoArchie's available controls. Deleting the app removes its local app data according to iOS behavior; media you separately saved to Apple Photos must be deleted in Photos.</li>
           <li><strong>Original media:</strong> PhotoArchie does not automatically delete originals. A deletion occurs only after you choose it and confirm Apple's system prompt.</li>
           <li><strong>Subscriptions:</strong> view, cancel, or manage them in your Apple Account subscription settings. Cancellation does not erase transaction records that Apple or RevenueCat must keep for purchase, fraud-prevention, accounting, or legal purposes.</li>

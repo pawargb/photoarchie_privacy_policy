@@ -11,7 +11,7 @@ Static, dependency-free privacy-policy page for PhotoArchie. It is intended for 
 5. After GitHub finishes deployment, verify:
    `https://pawargb.github.io/photoarchie_privacy_policy/`
 
-Use the exact public HTTPS URL in App Store Connect and keep the app's in-app policy consistent with this page.
+Use the exact public HTTPS URL in App Store Connect. PhotoArchie's Settings and subscription paywall open this page inside the app.
 
 ## Maintenance checklist
 
