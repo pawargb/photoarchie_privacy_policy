@@ -31,7 +31,7 @@
         PhotoArchie compresses photos and videos locally. It does not provide cloud media storage,
         show ads, sell personal information, or upload your photo library to the developer.
       </p>
-      <p class="updated">Effective and last updated: September 24, 2026</p>
+      <p class="updated">Effective and last updated: September 25, 2026</p>
     </div>
   </header>
 
@@ -86,9 +86,9 @@
         <p>
           You do not need a PhotoArchie account. Photo and video compression is performed on your device.
           We do not receive, host, inspect, sell, or use your photo or video content for advertising, AI
-          training, or profiling. Limited information can leave your device when you make a purchase, ask
-          Apple Photos to fetch an iCloud original, send feedback, visit this page, or intentionally share
-          media with another app or service.
+          training, or profiling. Limited information can leave your device when you make a purchase,
+          send feedback, visit this page, intentionally share media with another app or service, or
+          enable optional app-usage analytics.
         </p>
       </section>
 
@@ -126,9 +126,9 @@
 
         <h3>Apple Photos and iCloud</h3>
         <p>
-          If an original is stored in iCloud Photos rather than on your device, Apple Photos may download it
-          from iCloud so PhotoArchie can perform a feature you requested. This communication is between your
-          device and Apple under your Apple settings and Apple's privacy terms. We do not receive that media.
+          PhotoArchie does not request an iCloud-only original for compression or viewing. These features
+          use media available on your device; an iCloud-only item may be unavailable until you make it
+          available locally through Apple Photos. We do not receive that media.
         </p>
 
         <h3>Purchases and subscriptions</h3>
@@ -180,16 +180,29 @@
       <section id="analytics">
         <h2>5. Analytics, advertising, and tracking</h2>
         <p>
-          As of the effective date of this policy, PhotoArchie does not intentionally send app-usage analytics
-          events to the developer. The app does not show third-party ads and does not use data for cross-app
-          tracking or targeted advertising. We do not sell personal information or share it for cross-context
-          behavioral advertising.
+          App-usage analytics is optional and off by default. If you turn on “Share app usage” during onboarding
+          or in Settings, PhotoArchie uses Google Analytics for Firebase to understand which app features people
+          use and where app flows fail. We send only fixed names for screen visits, selected buttons and
+          functional toggles, and broad outcomes for compression, purchases, widget refreshes, and the game.
+          We do not send photos, videos, thumbnails, filenames, Photos identifiers, album names,
+          user-created labels, classification results, media counts or sizes, game scores, or raw error messages.
         </p>
         <p>
-          If a future release enables analytics, we will update this policy and the App Store privacy label
-          before collection begins. Any analytics must be limited to app interactions and technical data,
-          must exclude photo/video content and library metadata, and must use consent controls where required
-          by applicable law or Apple policy.
+          The Analytics SDK also processes an app-instance identifier, app and device technical information,
+          session information, and approximate location derived from network information. StoreKit purchase
+          events may include product identifiers and prices. We do not set a Firebase user ID, collect an
+          advertising identifier for analytics, link analytics to RevenueCat identities, or use analytics for
+          targeted advertising or cross-app tracking. Google may process this information in countries where
+          it or its service providers operate. See
+          <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Firebase privacy information</a>
+          and <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google's Privacy Policy</a>.
+        </p>
+        <p>
+          You can turn “Share app usage” off in Settings at any time. This stops future Analytics collection
+          and resets local Analytics data; it does not erase information already sent to Google. Google retains
+          previously collected information according to the Analytics property's retention settings and its
+          applicable terms. The app does not show third-party ads, sell personal information, or share it for
+          cross-context behavioral advertising.
         </p>
       </section>
 
@@ -198,7 +211,7 @@
         <p>Where data-protection law requires a legal basis, we rely on:</p>
         <ul>
           <li><strong>Providing the app and purchases you request:</strong> to process media locally, display your library, validate purchases, restore entitlements, and provide support.</li>
-          <li><strong>Your consent:</strong> for Photos access, notifications, optional feedback, and any future optional analytics that requires consent. You may withdraw consent through the app or iOS settings.</li>
+          <li><strong>Your consent:</strong> for Photos access, notifications, optional feedback, and optional app-usage analytics. You may withdraw consent through the app or iOS settings.</li>
           <li><strong>Legitimate interests:</strong> to keep the app reliable, prevent purchase fraud, respond to support, and protect the service, provided those interests are not overridden by your rights.</li>
           <li><strong>Legal obligations:</strong> when records or disclosures are required by applicable law.</li>
         </ul>
@@ -208,6 +221,7 @@
         <h2>7. Your choices, retention, and deletion</h2>
         <ul>
           <li><strong>Photos access:</strong> choose Limited or Full Access and change or revoke it in iOS Settings. Revoking access may prevent app features from working.</li>
+          <li><strong>App-usage analytics:</strong> off by default; enable or disable “Share app usage” in onboarding or Settings. Turning it off stops future collection and resets local Analytics data. Contact us about requests concerning previously sent data.</li>
           <li><strong>Image content classification:</strong> turn it off in PhotoArchie Settings to use random photo selection for the memory widget and game. The offline Apple system framework will not be used for photo selection while this setting is off.</li>
           <li><strong>Local data:</strong> remove compressed copies and related records using PhotoArchie's available controls. Deleting the app removes its local app data according to iOS behavior; media you separately saved to Apple Photos must be deleted in Photos.</li>
           <li><strong>Original media:</strong> PhotoArchie does not automatically delete originals. A deletion occurs only after you choose it and confirm Apple's system prompt.</li>
@@ -223,7 +237,7 @@
       <section>
         <h2>8. International processing</h2>
         <p>
-          Purchase, feedback, support, and website-hosting providers may process limited information in the
+          Purchase, analytics, feedback, support, and website-hosting providers may process limited information in the
           United States, India, or other countries where they operate. Privacy laws in those places may differ
           from those where you live. Where applicable, we and our providers rely on recognized safeguards for
           international transfers.
