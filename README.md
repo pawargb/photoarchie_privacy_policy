@@ -1,6 +1,6 @@
-# PhotoArchie Privacy Policy
+# PhotoArchie Legal Pages
 
-Static, dependency-free privacy-policy page for PhotoArchie. It is intended for GitHub Pages and the App Store Connect Privacy Policy URL field.
+Static, dependency-free Privacy Policy (`index.html`) and Terms of Use (`terms.html`) pages for PhotoArchie. The Privacy Policy remains the App Store Connect Privacy Policy URL; the Terms have their own link from both pages.
 
 ## Publish with GitHub Pages
 
@@ -12,6 +12,8 @@ Static, dependency-free privacy-policy page for PhotoArchie. It is intended for 
    `https://pawargb.github.io/photoarchie_privacy_policy/`
 
 Use the exact public HTTPS URL in App Store Connect. PhotoArchie's Settings and subscription paywall open this page inside the app.
+
+The Terms of Use are available at `https://pawargb.github.io/photoarchie_privacy_policy/terms.html`. Settings → Privacy & Security opens them directly; the subscription paywall retains Apple’s standard EULA link. Before future publication updates, compare the terms with the shipping app’s media, backup, deletion, and subscription behavior, the Privacy Policy, and Apple’s subscription disclosures.
 
 ## Maintenance checklist
 

@@ -100,10 +100,32 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 70px;
+  margin-bottom: 22px;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+.document-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 46px;
+}
+
+.document-nav a {
+  padding: 7px 12px;
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.document-nav a:hover,
+.document-nav a[aria-current="page"] {
+  background: rgb(255 255 255 / 22%);
 }
 
 .brand__mark {
@@ -314,7 +336,11 @@ h1 {
   }
 
   .brand {
-    margin-bottom: 48px;
+    margin-bottom: 18px;
+  }
+
+  .document-nav {
+    margin-bottom: 36px;
   }
 
   .layout {
@@ -401,6 +427,10 @@ h1 {
 
   .brand {
     margin-bottom: 32px;
+  }
+
+  .document-nav {
+    display: none;
   }
 
   .hero__summary,
